@@ -1,0 +1,28 @@
+# Binaries
+morpheco
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Environment
+.env
+.env.*
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+vendor/
+
+# Private keys — NEVER commit
+*.pem
+*.key
