@@ -8,6 +8,7 @@ morpheco
 # Environment
 .env
 .env.*
+!.env.example
 *.local
 
 # IDE
