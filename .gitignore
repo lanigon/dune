@@ -1,15 +1,6 @@
-# Binaries
-morpheco
-*.exe
-*.dll
-*.so
-*.dylib
-
-# Environment
-.env
-.env.*
-!.env.example
-*.local
+# OS
+.DS_Store
+Thumbs.db
 
 # IDE
 .idea/
@@ -17,12 +8,11 @@ morpheco
 *.swp
 *.swo
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Go
-vendor/
+# Environment
+.env
+.env.*
+!.env.example
+*.local
 
 # Private keys — NEVER commit
 *.pem
